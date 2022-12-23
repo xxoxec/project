@@ -1,0 +1,42 @@
+  * {
+    font-family: 'Gowun Dodum', sans-serif;
+    }
+
+.wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mytitle {
+  width: 300px;
+  height: 300px;
+  color : white;
+  text-align: center;
+
+/* 백그라운드 세줄같이쓰기 */
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)) ,url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYahWhIRovGTqkWso5JtBH9WaRjH33gFepQJE2IrnX6qmpAcaEvvn3tOjiWh6ePieLKYw&usqp=CAU");
+  background-size: cover;
+  background-position: center;
+
+  /* 정렬 네줄같이쓰기 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 25px;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.myresult{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  background-color: transparent;
+  margin : 10px;
+}
